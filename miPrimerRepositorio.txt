@@ -1,6 +1,22 @@
 Hola hola probando
 Un commit es un captura instantanea de los cambio realizados en ese momento del proyecto.
 
-git add ://para agregar archivo al  siguiente commit
+git add :para agregar archivo al  siguiente commit
 
-git add . :// para agregar todoso los archivos al siguiente commit(usar con cuidado)
+git add . : para agregar todos los archivos al siguiente commit(usar con cuidado)
+
+git commit -m 'texto descriptivo del commit'  :comando para hacer el commit
+
+git log   : para listar los commits realizados
+
+git clone `url entregada por github` : sirve para clonar un directorio desde la nube a tu repositorio local, a tu pc.
+
+git push  : es realizar una sincronizacion y subir lo commits que hemos realizados a github desde nuestra maquina local
+
+git push origin main   : la palabra origin indica cual es el origen donde queremos enviar la informacion y la palabra main indica la rama de trabajo donde la enviaremos. Lo importante en este mometno es señalar que la palabra que utilizemos se la misma que aparece en nuestro directiorio de trabajo de git, en este caso (main).
+
+Para agregar un repositorio local ya existente a GitHub:
+
+    git remote add origin `URL del NO repositorio creado en github`
+    git branch -M main
+    git push -u origin main
