@@ -1,0 +1,6 @@
+Hola hola probando
+Un commit es un captura instantanea de los cambio realizados en ese momento del proyecto.
+
+git add ://para agregar archivo al  siguiente commit
+
+git add . :// para agregar todoso los archivos al siguiente commit(usar con cuidado)
